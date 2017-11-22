@@ -24,3 +24,7 @@ function appendKitten(){
   var cat = "Broom"
   return [...kittens, cat]
 }
+function prependKitten(){
+  var cat = "Arnold"
+  return [cat, ...kittens]
+}
