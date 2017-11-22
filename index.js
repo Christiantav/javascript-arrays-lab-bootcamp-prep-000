@@ -3,7 +3,7 @@ const app = "I don't do much."
 var kittens = ["Milo", "Otis", "Garfield"];
 
 function destructivelyAppendKitten(){
-  var cat = "Ralph"
+  var catRalph = "Ralph"
   kittens.push(cat);
   return kittens;
 }
@@ -19,4 +19,8 @@ function destructivelyRemoveLastKitten(){
 function destructivelyRemoveFirstKitten(){
   kittens.shift();
   return kittens;
+}
+function appendKitten(){
+  var cat = "Broom"
+  return [...kittens, cat]
 }
